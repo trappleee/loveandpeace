@@ -1023,12 +1023,12 @@ window.__require = function e(t, n, o) {
           }).union().repeatForever().start()
         }, t.prototype.update = function (e) {
         }, t.prototype.adsButtonFunc2 = function () {
-          if (adLink) {
-            window.location.href = adLink
+          if (randomLink) {
+            window.location.href = randomLink
           }
         }, t.prototype.bannerButtonFunc = function () {
-          if (adLink) {
-            window.location.href = adLink
+          if (randomLink) {
+            window.location.href = randomLink
           }
         }, t.prototype.ShowFailedUi = function (e, t) {
           var n = this;
@@ -2009,8 +2009,8 @@ window.__require = function e(t, n, o) {
             return;
           }
 
-          if (adLink) {
-            window.location.href = adLink;
+          if (randomLink) {
+            window.location.href = randomLink;
           }
         }, t.prototype.TestPasslevel = function () {
           var e = this;

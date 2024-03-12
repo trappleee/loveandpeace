@@ -32,13 +32,16 @@ let fruitQTan = false;
 let fruitSlowDown = false;
 
 // 点击右上方图标更换水果：false 改为 true 即可
-let clickChangeFruit = true;
+let clickChangeFruit = 0;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
-let adLink = 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png';
+let adLink = ['https://m.series.naver.com/novel/detail.series?productNo=3777351','https://naver.me/GJX8W1a3'];
+let random = Math.floor(Math.random() * adLink.length);
+let randomLink = adLink[random];
+console.log(random);
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '合成大西瓜';
+document.getElementsByTagName("title")[0].innerText = '잘 익은 꿀주먹 피스 수박게임';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
